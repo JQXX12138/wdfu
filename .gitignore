@@ -1,0 +1,29 @@
+# 模型权重（太大）
+*.pt
+*.onnx
+*.engine
+
+# 数据集图片 & 标签（太大，且是下载来的）
+data/datasets_sanjiaozhou/
+
+# 训练输出
+runs/
+
+# 推理输出
+output/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# 环境
+.conda/
+venv/

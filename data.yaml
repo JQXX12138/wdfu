@@ -1,0 +1,12 @@
+# 三角洲人物检测数据集
+# 用法: model.train(data="data.yaml", ...)
+
+path: D:/delta-force-yolo/data/datasets_sanjiaozhou/bin
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names:
+  0: player
